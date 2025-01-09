@@ -4,6 +4,7 @@ import logoTorsi from "@/images/logotorsiev.png";
 import logoTorsiWhite from "@/images/logotorsiev-white.svg";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import Link from 'next/link'
 
 export default function Navbar() {
   const router = useRouter();
@@ -62,68 +63,68 @@ export default function Navbar() {
                     className="menu menu-sm dropdown-content bg-white text-black rounded-md z-[1] mt-3 w-52 p-2 shadow"
                   >
                     <li>
-                      <a href="/" className={`${isActive("/")}`}>
+                      <Link href="/" className={`${isActive("/")}`}>
                         HOME
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/about" className={`${isActive("/about")}`}>
+                      <Link href="/about" className={`${isActive("/about")}`}>
                         ABOUT
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/services"
                         className={`${isActive("/services")}`}
                       >
                         SERVICES
-                      </a>
+                      </Link>
                       <ul className="p-2">
                         <li>
-                          <a
+                          <Link
                             href="/services#charging"
                             className={`${isActive("/services#charging")}`}
                           >
                             Charging Station
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="/services#conversion"
                             className={`${isActive("/services#conversion")}`}
                           >
                             ICE to EV Conversion
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="/services#stroom"
                             className={`${isActive("/services#stroom")}`}
                           >
                             Stroom!
-                          </a>
+                          <Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/partnership"
                         className={`${isActive("/partnership")}`}
                       >
                         PARTNER
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/contact" className={`${isActive("/contact")}`}>
+                      <Link href="/contact" className={`${isActive("/contact")}`}>
                         CONTACT
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
 
               {/* Logo */}
-              <a
+              <Link
                 href="/"
                 className="btn btn-ghost text-xl hover:bg-transparent"
               >
@@ -136,76 +137,76 @@ export default function Navbar() {
                     className="w-32 md:w-40"
                   />
                 )}
-              </a>
+              </Link>
             </div>
 
             {/* Menu Desktop */}
             <div className="navbar-center hidden lg:flex active:bg-transparent">
               <ul className="menu menu-horizontal">
                 <li>
-                  <a href="/" className={`${isActive("/")}`}>
+                  <Link href="/" className={`${isActive("/")}`}>
                     HOME
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about" className={`${isActive("/about")}`}>
+                  <Link href="/about" className={`${isActive("/about")}`}>
                     ABOUT
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <div className="dropdown dropdown-hover dropdown-bottom text-[17px] hover:text-sky-500 hover:bg-transparent active:bg-transparent !bg-transparent">
-                    <a
+                    <Link
                       href="/services"
                       className={`${isActive("/services")} flex items-center`}
                     >
                       SERVICES
-                    </a>
+                    </Link>
                     <ul className="dropdown-content menu w-64 p-2 bg-white rounded-md shadow">
                       <li>
-                        <a
+                        <Link
                           href="/services#charging"
                           className={`${isActive(
                             "/services#charging"
                           )} text-black`}
                         >
                           Charging Station
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/services#conversion"
                           className={`${isActive(
                             "/services#conversion"
                           )} text-black`}
                         >
                           ICE to EV Conversion
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/services#stroom"
                           className={`${isActive(
                             "/services#stroom"
                           )} text-black`}
                         >
                           Stroom!
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/partnership"
                     className={`${isActive("/partnership")}`}
                   >
                     PARTNER
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact" className={`${isActive("/contact")}`}>
+                  <Link href="/contact" className={`${isActive("/contact")}`}>
                     CONTACT
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
