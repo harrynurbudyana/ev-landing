@@ -102,7 +102,7 @@ export default function Navbar() {
                             className={`${isActive("/services#stroom")}`}
                           >
                             Stroom!
-                          <Link>
+                          </Link>
                         </li>
                       </ul>
                     </li>
