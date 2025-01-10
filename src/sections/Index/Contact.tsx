@@ -80,7 +80,7 @@ export default function Contact() {
                   </button>
                   <div className="flex flex-col">
                     <div className="font-semibold text-lg">Call Us</div>
-                    <div className="text-slate-500">+62 853 2023 1141 (Roni Riandi)</div>
+                    <div className="text-slate-500">62 853 2023 1141 (Roni Riandi)</div>
                   </div>
                 </div>
               </figure>
