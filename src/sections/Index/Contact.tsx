@@ -109,7 +109,7 @@ export default function Contact() {
                   </button>
                   <div className="flex flex-col">
                     <div className="font-semibold text-lg">Email Us</div>
-                    <div className="text-slate-500">info@example.com</div>
+                    <div className="text-slate-500">torsiev.id@gmail.com</div>
                   </div>
                 </div>
               </figure>
