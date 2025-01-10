@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import Image from "next/image";
 import left from "@/images/left-1.svg";
 import right from "@/images/right-1.svg";
@@ -81,8 +81,10 @@ export default function Contact() {
                   </button>
                   <div className="flex flex-col">
                     <Link href="https://wa.me/+6285320231141">
-                    <div className="font-semibold text-lg">Call Us</div>
-                    <div className="text-slate-500">+62 853-2023-1141 (Roni Riandi)</div>
+                      <div className="font-semibold text-lg">Call Us</div>
+                      <div className="text-slate-500">
+                        +62 853-2023-1141 (Roni Riandi)
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -110,11 +112,12 @@ export default function Contact() {
                       </g>
                     </svg>
                   </button>
-                  <div className="flex flex-col">
+                </div>
+                <div className="flex flex-col">
                   <Link href="mailto:torsiev.id@gmail.com">
                     <div className="font-semibold text-lg">Email Us</div>
                     <div className="text-slate-500">torsiev.id@gmail.com</div>
-                    </Link>
+                  </Link>
                 </div>
               </figure>
             </div>

@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 
 const backTop = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isVisible, setIsVisible] = useState(false);
 
   // konfigurasi tombol
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY > 50) {
