@@ -79,10 +79,10 @@ export default function Map() {
                     </svg>
                   </button>
                   <div className="flex flex-col">
+                  <Link href="https://wa.me/+6285320231141">
                     <div className="font-semibold text-lg">Call Us</div>
-                    <div className="text-slate-500">
-                      <p>+62 853-2023-1141 (Roni Riandi)</p>
-                    </div>
+                    <div className="text-slate-500">+62 853-2023-1141 (Roni Riandi)</div>
+                    </Link>
                   </div>
                 </div>
               </figure>
@@ -110,8 +110,10 @@ export default function Map() {
                     </svg>
                   </button>
                   <div className="flex flex-col">
+                    <Link href="mailto:torsiev.id@gmail.com">
                     <div className="font-semibold text-lg">Email Us</div>
                     <div className="text-slate-500">torsiev.id@gmail.com</div>
+                    </Link>
                   </div>
                 </div>
               </figure>
