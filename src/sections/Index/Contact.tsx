@@ -80,7 +80,7 @@ export default function Contact() {
                   </button>
                   <div className="flex flex-col">
                     <div className="font-semibold text-lg">Call Us</div>
-                    <div className="text-slate-500">+62 234 5678 9876</div>
+                    <div className="text-slate-500">+62 853-2023-1141 (Roni Riandi)</div>
                   </div>
                 </div>
               </figure>
@@ -109,7 +109,7 @@ export default function Contact() {
                   </button>
                   <div className="flex flex-col">
                     <div className="font-semibold text-lg">Email Us</div>
-                    <div className="text-slate-500">info@example.com</div>
+                    <div className="text-slate-500">torsiev.id@gmail.com</div>
                   </div>
                 </div>
               </figure>
