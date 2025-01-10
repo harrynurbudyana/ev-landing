@@ -3,6 +3,7 @@ import Image from "next/image";
 import left from "@/images/left-1.svg";
 import right from "@/images/right-1.svg";
 import Script from "next/script";
+import Link from "next/link";
 
 export default function Contact() {
   return (

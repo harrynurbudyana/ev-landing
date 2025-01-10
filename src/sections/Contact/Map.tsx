@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Script from "next/script";
+import Link from "next/link";
 
 export default function Map() {
   useEffect(() => {
